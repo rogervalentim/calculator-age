@@ -45,6 +45,13 @@ button.addEventListener("click", () => {
         day.style.border = "1px solid hsl(0, 100%, 67%)";
         month.style.border = "1px solid hsl(0, 100%, 67%)";
         year.style.border = "1px solid hsl(0, 100%, 67%)";
+    } else {
+        labelDay.style.color = "";
+        labelMonth.style.color = "";
+        labelYear.style.color = "";
+        day.style.border = "";
+        month.style.border = "";
+        year.style.border = "";
     }
 
     resultsAge.innerText = ageYears || "- -";
