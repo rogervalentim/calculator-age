@@ -179,4 +179,8 @@ article code {
     article {
         margin-top: 10px;
     }
+
+    article h1 {
+        font-size: 38px;
+    }
 }
